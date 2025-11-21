@@ -1,0 +1,152 @@
+html, body{
+background-color:black;
+background-size:cover;
+height: auto;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    * {
+        transform: scale(0.9);
+        transform-origin: top center;
+    }
+}
+
+.namet{
+color:white;
+font-size: 45px;
+text-shadow: 0 0 10px purple,
+      0 0 20px purple,
+      0 0 30px purple,
+      0 0 40px purple;
+
+}
+.name{
+display: flex;
+left: 30px;
+text-align: center;
+height: 100vh;
+justify-content: center;
+align-items: center;
+color: white;
+
+}
+
+.fot{
+text-align: center;
+position: relative;
+left: 15px;
+top: -800px;
+}
+.building{
+
+position: relative;
+top: -950px;
+left: 100px;
+}
+
+.fot1{
+position: relative;
+top: -1550px;
+left: 1000px;
+}
+
+.s{
+color: yellow;
+}
+.sp{
+color: yellow;
+}
+
+.frau{
+position: relative;
+top:-2000px;
+left: 590px;
+}
+.dollar{
+position: relative;
+top: -2340px;
+left: 30px;
+border-radius: 20px;
+}
+
+.bitc{
+position: relative;
+top: -2510px;
+left: 1245px;
+}
+
+.btn{
+position: relative;
+background-color: purple;
+color: white;
+border-radius: 80px;
+top: -2195px;
+left: 650px;
+width: 200px;
+height: 70px;
+text-shadow: 0 0 10px #0018A6,
+             0 0 20px #0018A6;
+}
+
+.banner{
+position: relative;
+top: -2170px;
+left: 0px;
+}
+
+.automat{
+position:relative;
+top: -2185px;
+left: 648px;
+}
+
+.mon{
+position: relative;
+top: -2320px;
+left: 175px;
+}
+
+.block{
+background-color: #400C22;
+position: relative;
+top: -2250px;
+width: 1480px;
+    height: 2px;
+    background: #d400ff;
+    transform:(-20deg);
+    box-shadow: 0 0 10px #d400ff, 0 0 20px #d400ff;
+}
+
+.rain{
+position: relative;
+top: -2420px;
+left: 1075px;
+}
+
+button:hover{
+transform: scale(1.25);
+transition: 0.1s;
+}
+
+.block2{
+position: relative;
+top: -3090px;
+width: 1480px;
+height: 2px;
+background: #2000D1;
+transform:(-20deg);
+box-shadow: 0 0 10px #d400ff, 0 0 20px #2000D1;
+}
